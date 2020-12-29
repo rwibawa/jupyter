@@ -44,6 +44,10 @@ $ conda install jupyter
 $ pip install jupyter_contrib_nbextensions && jupyter contrib nbextension install
 
 $ conda install seaborn
+
+# Sklearn
+$ conda install scikit-learn
+
 $ jupyter notebook &
 ```
 
@@ -51,3 +55,13 @@ $ jupyter notebook &
 * [Learn Jupyter Notebook](note_01/learn%20Jupyter%20Notebook.ipynb)
 * [Learn Machine Learning](ml_01/Learn%20Machine%20Learning.ipynb)
 * [Learn Tensor Flow](tensorflow_01/beginner.ipynb)
+
+## 4. install jupyter kernels
+* [available kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)
+
+### 4.1 javascript:
+[ijavascript](https://github.com/n-riesco/ijavascript)
+```bash
+$ npm install -g ijavascript
+$ ijsinstall
+```
