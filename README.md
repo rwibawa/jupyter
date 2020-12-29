@@ -27,13 +27,21 @@ $ export=/Users/rwibawa/anaconda3/bin:$PATH
 ## 2. install `tensorflow`
 * [Tutorial](https://stackoverflow.com/questions/63111115/unable-to-install-tensorflow-using-conda-with-python-3-8)
 ```bash
-$ conda create -n p37env python=3.7
-$ conda activate p37env
+# Env. with python v3.8
+$ python --version
+Python 3.8.5
+(base) rwibawa$ pip --version
+pip 20.2.4 from /Users/rwibawa/anaconda3/lib/python3.8/site-packages/pip (python 3.8)
+(base) rwibawa$ conda create -n tf python=3.8.5
 
-$ conda search tensorflow
-$ conda install tensorflow
+$ conda activate tf
+$ pip install pip-search
+$ pip_search tensorflow
+$ pip install tensorflow
+$ conda list
 
 $ conda deactivate
+
 ```
 
 ## 3. Use `jupyter notebook`
