@@ -55,6 +55,7 @@ $ jupyter notebook &
 * [Learn Jupyter Notebook](note_01/learn%20Jupyter%20Notebook.ipynb)
 * [Learn Machine Learning](ml_01/Learn%20Machine%20Learning.ipynb)
 * [Learn Tensor Flow](tensorflow_01/beginner.ipynb)
+* [Learn js stream](js_note_01/js%20stream.ipynb)
 
 ## 4. install jupyter kernels
 * [available kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)
