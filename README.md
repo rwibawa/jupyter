@@ -52,6 +52,7 @@ $ conda install jupyter
 $ pip install jupyter_contrib_nbextensions && jupyter contrib nbextension install
 
 $ conda install seaborn
+$ conda install pydotplus
 
 # Sklearn
 $ conda install scikit-learn
